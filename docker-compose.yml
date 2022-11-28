@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+    miapp:
+      build: .
+      command: python ./pruebapython.py
