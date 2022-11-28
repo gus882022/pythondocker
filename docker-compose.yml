@@ -3,3 +3,6 @@ services:
     miapp:
       build: .
       command: python ./pruebapython.py
+volumes: 
+  python-data: 
+
